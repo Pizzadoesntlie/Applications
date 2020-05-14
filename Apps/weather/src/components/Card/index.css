@@ -1,0 +1,13 @@
+div {
+    background-color:rgb(245, 221, 225);
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 50%;
+    margin: auto;
+    margin-bottom:1em;
+    text-align: center;
+    padding: 1em;
+    color:rgb(234, 235, 198);
+    background-color: rgb(141, 195, 231);
+  }
