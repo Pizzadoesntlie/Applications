@@ -4,7 +4,7 @@ class Contact extends React.Component {
     render() {
         return(
             <div className="contact">
-                <h2><p>If you're interested in working with me, feel free to get in touch with me and let's make some rad things happen!</p>
+                <h2><p>If you're interested in working together, feel free to get in touch with me and let's make some rad things happen!</p>
                 </h2>
                 <h2 className="email">Email: <a href="mailto:switchfoot2297@gmail.com">switchfoot2297@gmail.com</a></h2>
                 <h2>Socials:</h2>
