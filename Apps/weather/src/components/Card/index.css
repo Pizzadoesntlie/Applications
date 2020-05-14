@@ -1,4 +1,4 @@
-div {
+html {
     background-color:rgb(245, 221, 225);
 }
 .card {
@@ -10,4 +10,5 @@ div {
     padding: 1em;
     color:rgb(234, 235, 198);
     background-color: rgb(141, 195, 231);
+    border:0.25em solid rgb(255, 255, 255);
   }
