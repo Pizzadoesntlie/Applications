@@ -13,8 +13,10 @@ class App extends React.Component {
   render() {
     return (
       <BrowserRouter>
-        <div>
+        <div className="grid">
+          <div className="grid-logo">
          <img className="logo" src="images/sglogo.png" alt="Shanice" />
+         </div>
           <Nav />
             <Switch>
              <Route path="/" component={Home} exact/>

@@ -1,9 +1,35 @@
+@media screen and (min-width: 992px) {
+    .grid {
+        display:grid;
+        grid-template-columns:auto auto auto;
+        width:100%;
+    }
+    /*home page*/
+    .grid-logo{
+        grid-area: 1 / 2 / 1 / span 1;
+    }
+    .grid-nav {
+        grid-area: 2 / 2 / 2 / span 1; 
+    }
+    .head{
+        grid-area: 3 / 2 / 3 / span 1;
+    }
+     /*portfolio page*/
+    .grid-por{
+        grid-area: 3 / 2 / 3 / span 1;
+    }
+     /*contact page*/
+    .grid-contact{
+        grid-area: 3 / 2 / 3 / span 1;
+    }
+}
+ /*main body*/
 body {
 	background-image: linear-gradient(to bottom right,#9fcdcb, #feecf5);
 	border: 20px double #f8fce5;
 	margin:auto;
 }
-
+ /*header & footer*/
 .head {
     margin: auto;
     text-align:center;
@@ -11,6 +37,7 @@ body {
 .footer {
     text-align:center; 
 }
+ /*headings*/
 h1 {
     color:#f8fce5;
 }
@@ -23,6 +50,7 @@ h2 {
 h2.social {
     margin:20px;
 }
+ /*paragraph elements*/
 p {
     background-color: rgba(0, 0 , 0, 0.1);
     margin:auto;
@@ -37,7 +65,7 @@ p.bio {
     margin-bottom:10px;
     margin-top:10px;
 }
-
+ /*images*/
 img.bio {
     display:block;
     margin: auto;
@@ -51,6 +79,11 @@ img.logo {
     display:block;
     margin: auto;
 }
+img.w_api{
+    width:60%;
+    height:60%;
+}
+ /*navigation*/
 .nav {
     text-align:center;
     margin:15px;
@@ -65,6 +98,6 @@ img.logo {
     color:#c72476;
 }
  a:hover:not(.active) {
-	background-color: #4c4649;
+	background-color: #f8fce5;
 	color:#c72476;
 }
