@@ -2,7 +2,9 @@
  margin:auto;
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+body {
+  background-color: #f4c095;
+}
 .container {
   display: block;
   padding: 0 1rem;
@@ -12,27 +14,27 @@
 
 button.del {
   display:inline-block;
-  background-color: rgb(255, 4, 4);
+  background-color: #ee2e31;
   color:white;
   padding:3px 8px;
   margin:5px;
-  border:1px rgb(255, 4, 4) groove;
+  border:1px #ee2e31 groove;
   border-radius:0.75em;
   cursor:pointer;
 }
 h1 {
-  background-color: #c85188;
+  background-color: #071e22;
   color:white;
   text-align:center;
   padding:10px;
-  border: 2px rgb(255, 206, 243) solid;
+  border: 2px black solid;
 }
 input.sub {
-  background-color: #e7b1ca;
-  color:black;
+  background-color: #1d7874;
+  color:white;
   cursor:pointer; 
 }
 p {
   padding:2px;
-  color:#c85188;
+  color:#f4c095;
 }

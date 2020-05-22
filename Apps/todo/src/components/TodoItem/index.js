@@ -9,7 +9,7 @@ class TodoItem extends React.Component {
             borderBottom: '1px black dotted',
             borderRight: '1px black dotted',
             borderLeft: '1px black dotted',
-            backgroundColor: '#f9ecf2'
+            backgroundColor: '#679289'
         }
     }
     //handle the event for the checkbox call a method, use arrow function so you don't have to bind this (this shows up undef)

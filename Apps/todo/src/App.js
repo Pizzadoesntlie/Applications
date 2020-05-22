@@ -14,7 +14,12 @@ class App extends React.Component {
       },
       {
         id: uuidv4(),
-        title: "listen to blink-182",
+        title: "paint the house",
+        completed: false
+      },
+      {
+        id: uuidv4(),
+        title: "tend to the garden",
         completed: false
       }
     ]
