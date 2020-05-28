@@ -5,13 +5,13 @@
         width:100%;
     }
     /*home page*/
-    .grid-logo{
+    .grid-logo {
         grid-area: 1 / 2 / 1 / span 1;
     }
     .grid-nav {
         grid-area: 2 / 2 / 2 / span 1; 
     }
-    .head{
+    .head {
         grid-area: 3 / 2 / 3 / span 1;
     }
      /*portfolio page*/
