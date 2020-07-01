@@ -1,11 +1,15 @@
 body {
     background-color: #363237;
     margin:0px;
+    color:#D09683;
 }
 h1 {
    text-align:center;
-   color: #D09683;
+   color: #2D4262;
    margin:auto;
+}
+h3 {
+    text-align:center;  
 }
 .pure-menu-link {
     color:#D09683;
@@ -14,12 +18,15 @@ h1 {
     background-color: #73605B; 
 }
 .pure-g {
-    letter-spacing: 0;
+    letter-spacing: normal;
 }
 .pure-img {
-    width: 100%;
+    width:100%;
     height:400px;
     background-image: url("https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?cs=srgb&dl=white-and-black-mountain-wallpaper-933054.jpg&fm=jpg");
     background-position: center;
+}
+.box{
+    padding-left: 1em;
 }
 
