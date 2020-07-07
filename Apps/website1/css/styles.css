@@ -22,6 +22,7 @@ h3 {
 }
 .pure-menu.pure-menu-horizontal{
     margin:15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .pure-menu-link {
     color:#D09683;
@@ -39,7 +40,7 @@ h3 {
     padding-right:0px;
     background-image: url("https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?cs=srgb&dl=white-and-black-mountain-wallpaper-933054.jpg&fm=jpg");
     background-position: center;
-    border: 5px solid rgb(119, 119, 119);
+    border: 5px solid #73605B;
 
 }
 .box{
@@ -48,7 +49,12 @@ h3 {
     width:85%;
 }
 img {
-    border: 5px solid rgb(119, 119, 119);
+    border: 5px solid #73605B;
+}
+.logo{
+   width:30%;
+   height:30%;
+   margin:auto; 
 }
 .pure-u-1{
     text-align:center;
