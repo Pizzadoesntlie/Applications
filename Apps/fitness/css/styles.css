@@ -1,0 +1,74 @@
+/* body{
+    background-color:#f4f6ff2c6;
+    background-image: url("https://cdn.pixabay.com/photo/2017/11/18/05/00/yoga-2959214_960_720.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+} */
+body {
+    /* background-color:#f4f6ff; */
+    background-color:rgb(238, 224, 177);
+    overflow-x:hidden;
+}
+.pure-u*{
+    letter-spacing: normal;
+}
+.back-img{
+    background-image: url("https://cdn.pixabay.com/photo/2017/11/18/05/00/yoga-2959214_960_720.jpg"); 
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width:100%;
+    height:auto;
+    display:block;
+    border:2px solid #ffcb74;
+}
+.pure-menu.pure-menu-horizontal{
+    margin:15px;
+    display:inline-block;
+    position: relative;
+    text-align:center;
+}
+.pure-menu-link{
+    color:#4f8a8b;
+}
+.pure-menu-link:hover {
+    background-color: #ea907a; 
+}
+.box {
+    margin:8px;
+}
+img {
+    border:2px solid #ffcb74;
+    width:90%;
+     
+}
+.middle{
+    background-color:#4f8a8b; 
+    border:3px solid #ea907a; 
+}
+h1{
+    text-align:center;
+    color:#ea907a;
+}
+p{
+    background-color:#4f8a8b;
+    color:#ffcb74;
+    padding:8px;
+}
+.pure-u-1{
+    background-color:#4f8a8b;
+    text-align:center;
+    color:#ffcb74;
+}
+table{
+    margin:auto;
+    width:50%;
+}
+
+
+
+
+
+
+ 
