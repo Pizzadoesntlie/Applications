@@ -13,6 +13,9 @@ html, button, input, select, textarea,
     text-align:center;
     position: fixed;
 }
+h1.logo{
+    color:lightgray;
+}
 a.pure-menu-link{
     color:white;
 }
@@ -30,7 +33,7 @@ a.pure-menu-link{
     background-color: rgba(0, 0, 0, 0.74);
     border-bottom: 4px solid gray;   
 } */
-
+/* Home Page content and layout below */
 .banner-img{
     background-image: url("https://cdn.pixabay.com/photo/2017/12/25/16/16/creativity-3038628_960_720.jpg");
     background-repeat: no-repeat;
@@ -57,8 +60,12 @@ h5{
     color:gray;
 }
 
-h2,h3{
+h1,h2,h3{
     text-align:center;
+}
+.ads{
+    margin-top:10px;
+    margin-bottom:10px;
 }
 .box2 {
     padding-left: 0.5em;
@@ -72,9 +79,12 @@ h2,h3{
     margin:auto;
     overflow-y:scroll;
     overflow-x: hidden;
+    max-height: 500px;
+    border:1px solid lightgray;
 }
 p.news{
     padding:7px;
+    border-bottom:0.5px solid lightgray;
 }
 hr{
     display:block;
@@ -83,7 +93,92 @@ hr{
     margin-left: auto;
     margin-right: auto;
     height:2px;
-    width:70%;
+    width:75%;
     color:gray;
     background-color: gray;
+}
+.box4{
+    padding-left: 0.5em;
+    padding-right:0.5em;
+    width:75%;
+    margin:auto;
+}
+.box5{
+    padding-left: 0.5em;
+    padding-right:0.5em;
+    width:71%;
+    margin:auto;
+}
+.box6{
+    text-align:center;
+    margin:10px;
+}
+.box6:hover{
+    cursor: pointer;
+}
+.box7{
+    text-align:center;
+    margin:10px;
+}
+h5.newsy{
+    text-align:left;
+    margin:0px;
+}
+.footer-box{
+    padding-left: 0.5em;
+    padding-right:0.5em;
+    width:80%;
+    margin:auto;
+}
+h3.footer{
+    padding:5px;
+    border-bottom: 0.5px solid gray;
+    text-align: center;
+}
+hr.footer{
+    display:block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    height:2px;
+    width:90%;
+    color:gray;
+    background-color: gray;
+}
+.footerfoot{
+    padding-left: 0.5em;
+    padding-right:0.5em;
+    margin:auto;
+    width:50%;
+}
+.pure-u-1.pure-u-md-1-5{
+    background-color: rgba(0, 0, 0, 0.74);
+}
+/* About page & layout */
+h1.about{
+    margin-top:130px;
+}
+.aboutbox{
+    border:2px solid lightsteelblue;
+    margin:auto;
+    margin-top: 10px;
+    width:75%;
+}
+p.about{
+    text-align:justify;
+    padding-left:15px;
+    padding-right:15px;
+}
+/* Contact Page */
+h1.contact{
+    margin-top: 130px;
+}
+form.pure-form{
+    width:85%;
+    margin:auto;
+}
+.imgcon{
+    margin:auto;
+    width:45%;
 }
