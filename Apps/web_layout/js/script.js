@@ -1,0 +1,3 @@
+function box(){
+    alert("THANKS FOR CONTACTING US! YOU WILL HEAR BACK FROM US SHORTLY.");
+};

@@ -41,6 +41,7 @@ a.pure-menu-link{
     background-size:cover;
     width:100%;
     height:500px;
+    border:2px solid black;
 }
 .ads{
     background-color:rgb(228, 228, 228);
