@@ -1,0 +1,86 @@
+body{
+    overflow-x: hidden;
+    background-color: rgb(177, 201, 202);
+}
+.pure-g{
+    letter-spacing: normal;
+    overflow-x:hidden;
+}
+.pure-menu-horizontal{
+    text-align: center;
+    margin:10px;
+}
+.pure-u-1.pure-u-md-2-5{
+    background-color: white;
+}
+h1.logo{
+    margin:10px;
+    text-align: center;
+}
+.pure-u-1.pure-u-md-3-5{
+    background-color: white;
+}
+h5.ship{
+    text-align:center;
+    color:white;
+    background-color: black;
+    margin-top:0px;
+}
+h2.shop{
+   padding-left:10px;
+   padding-right:10px;
+   text-align:center;
+}
+h3.shop{
+    padding-left:10px;
+    padding-right:10px;
+    text-align:center;
+}
+hr{    
+    display:block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height:2px;
+    border:1px solid gray;
+    background-color: rgb(204, 204, 204);
+}
+.body_shop{
+    background-color: lightsteelblue;
+}
+.pure-menu.custom-restricted-width{
+    text-align: center;
+}
+hr.shop{
+    display:block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    height:2px;
+    width:80%;
+    color:gray;
+    background-color: rgb(204, 204, 204);
+}
+.box{
+    border:2px solid rgb(255, 248, 248);
+    width:85%;
+    margin:auto;
+}
+.box2{
+    width:45%;
+    margin:auto;
+    padding-top:10px;
+    padding-bottom:5px;
+}
+.caption{
+    text-align:center;
+    color:rgb(185, 9, 9);
+    font-weight: bold;
+}
+.product_name{
+    text-align: center;
+}
+.price{
+    text-align:center;
+    color:rgb(185, 9, 9);
+}
