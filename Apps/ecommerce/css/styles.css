@@ -10,15 +10,20 @@ body{
     text-align: center;
     margin:10px;
 }
+.pure-menu-link{
+    color:black;
+}
 .pure-u-1.pure-u-md-2-5{
     background-color: rgb(226, 226, 226);
 }
 h1.logo{
-    margin:10px;
     text-align: center;
 }
 .pure-u-1.pure-u-md-3-5{
     background-color: rgb(226, 226, 226);
+}
+.pure-button.pure-button-primary{
+    background-color: rgb(158, 40, 40);
 }
 h5.ship{
     text-align:center;
@@ -62,15 +67,17 @@ hr.shop{
     background-color: rgb(82, 82, 82);
 }
 .box{
-    border:2px solid rgb(255, 248, 248);
+    border:3px solid gray;
     width:85%;
     margin:auto;
+    position: relative;
 }
 .box2{
     width:45%;
     margin:auto;
     padding-top:10px;
     padding-bottom:5px;
+    cursor: pointer;
 }
 .caption{
     text-align:center;
@@ -95,3 +102,35 @@ hr.shop{
     width:50%;
     color:white;
 }
+img{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.box:hover .pure-img {
+    opacity: 0.3;
+    cursor: pointer;
+}
+.box:hover .message {
+    opacity: 1;
+}
+.message{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text {
+    background-color: #273642;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    cursor: pointer;
+  }
