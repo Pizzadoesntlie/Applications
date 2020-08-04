@@ -13,6 +13,10 @@ body{
 .pure-menu-link{
     color:black;
 }
+.pure-menu-link:hover{
+    background-color: transparent;
+    color:rgb(158, 40, 40);
+}
 .pure-u-1.pure-u-md-2-5{
     background-color: rgb(226, 226, 226);
 }
@@ -73,11 +77,27 @@ hr.shop{
     position: relative;
 }
 .box2{
-    width:45%;
+    width:55%;
+    text-align:center;
     margin:auto;
     padding-top:10px;
     padding-bottom:5px;
     cursor: pointer;
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    font-size: x-large;
+}
+.box2 > span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+  }
+.box2 > span:hover:before,
+.box2 > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+   left:5;
+   color:gold;
 }
 .caption{
     text-align:center;
@@ -134,3 +154,4 @@ img{
     padding: 16px 32px;
     cursor: pointer;
   }
+  /* '★★★★★' */
