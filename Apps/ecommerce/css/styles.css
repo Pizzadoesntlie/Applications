@@ -85,12 +85,13 @@ hr.shop{
     cursor: pointer;
     unicode-bidi: bidi-override;
     direction: rtl;
-    font-size: x-large;
+    font-size: xx-large;
+    color:gold;
 }
 .box2 > span {
     display: inline-block;
     position: relative;
-    width: 1.1em;
+    width: 0.8em;
   }
 .box2 > span:hover:before,
 .box2 > span:hover ~ span:before {
