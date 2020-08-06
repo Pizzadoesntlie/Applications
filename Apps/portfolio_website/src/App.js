@@ -8,8 +8,6 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 
 class App extends React.Component {
-  // <p>Hiiiiii. I'm getting my shit together finally! Well I'm trying it's a mf work in progress Okurrrr. </p>
-  // <p>In conclusion, this will be my dope ass portfolio website bc I'm a mf QUEEN and shall not forget that.</p>
   render() {
     return (
       <BrowserRouter>
