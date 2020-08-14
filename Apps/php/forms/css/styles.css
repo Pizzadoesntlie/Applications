@@ -1,0 +1,31 @@
+body {
+	background-color: #399;
+}
+
+div#content-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	border: 5px ridge #000;
+	background-color: #fff;
+}
+
+div#content {
+	margin: 10px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul li {
+	margin-bottom: 5px;
+}
+
+label {
+	padding-left: 10px;
+}
+.missing {
+	color:#FF0000;
+	 font-weight: 900;
+}
